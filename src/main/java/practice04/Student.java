@@ -32,7 +32,7 @@ public class Student extends Person {
 	}
 	
 	public String introduce() {
-		String result = super.introduce();
+		String result = super.basicIntroduce();
 		return result+" I am a Student. I am at Class "+this.klass+".";
 	}
 }

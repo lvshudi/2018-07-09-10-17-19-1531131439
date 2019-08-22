@@ -22,7 +22,7 @@ public class Worker extends Person {
 	}
 	
 	public String introduce() {
-		String result = super.introduce();
+		String result = super.basicIntroduce();
 		return result + " I am a Worker. I have a job.";
 	}
 }

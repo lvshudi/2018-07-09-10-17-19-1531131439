@@ -20,6 +20,10 @@ public class Person {
 		this.age = age;
 	}
 	
+	public String introduce() {
+		return basicIntroduce();
+	}
+	
 	public String basicIntroduce() {
 		return "My name is "+this.name+". I am "+this.age+" years old.";
 	}
